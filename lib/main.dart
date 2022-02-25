@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
           theme: ThemeData(
             primarySwatch: Colors.blueGrey,
           ),
-          home: const MyHomePage(title: 'เติมเกมส์'),
+          home: const MyHomePage(title: 'แอปเติมเกมส์'),
         ));
   }
 }
@@ -53,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return DefaultTabController(
         length: 2,
         child: Scaffold(
-            backgroundColor: Colors.grey,
+            backgroundColor: Colors.black,
             body: TabBarView(
               children: [
                 HomeScreen(),

@@ -65,8 +65,8 @@ class FormScreen extends StatelessWidget {
                 child: Text("กดบันทึก"),
                 style: TextButton.styleFrom(
                   textStyle: TextStyle(fontSize: 15),
-                  primary: Colors.white,
-                  backgroundColor: Colors.blueGrey,
+                  primary: Colors.black,
+                  backgroundColor: Colors.grey,
                 ),
               ),
             ],

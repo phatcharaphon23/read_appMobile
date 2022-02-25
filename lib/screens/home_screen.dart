@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
         appBar: AppBar(
           elevation: 0,
-          title: Text('เติมเกมส์'),
+          title: Text('จ่ายตังค์'),
           actions: [
             IconButton(
                 onPressed: () {
@@ -28,14 +28,14 @@ class _HomeScreenState extends State<HomeScreen> {
                     return FormScreen();
                   }));
                 },
-                icon: Icon(Icons.add_reaction_outlined)),
+                icon: Icon(Icons.add)),
             IconButton(
                 onPressed: () {
                   SystemNavigator.pop();
                 },
                 icon: Icon(
                   Icons.exit_to_app,
-                  color: Colors.white,
+                  color: Colors.black,
                 ))
           ],
         ),
